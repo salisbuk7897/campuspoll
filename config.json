@@ -1,0 +1,10 @@
+{
+    "mongourl": "127.0.0.1",
+	"dbname": "campuspoll",
+	"mongoport": "27017",
+	"useDbAuth": "true",
+	"dbUser": "myUserAdmin",
+	"dbPassword": "salisu",
+	"authSource": "admin",
+	"JWTSecretToken": "qwerfvh4565tyhgnbn78786"
+}

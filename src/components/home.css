@@ -1,0 +1,125 @@
+.App {
+    text-align: center;
+  }
+  
+  .App_body {
+    text-align: center;
+  }
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  /* @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  } */
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .label {
+    display: block;
+    font-size: large;
+    color: white;
+    padding: 5px;
+}
+
+.input {
+    font-size: large;
+    padding: 5px;
+    margin: 2px;
+    width: 98%;
+
+}
+
+.btn {
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-size: large;
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+    width: 50%
+}
+
+.messages {
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    display: block;
+    background-color: red;
+    color: white;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+}
+
+.success {
+    display: block;
+    background-color: lightblue;
+    color: black;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+}
+
+.form {
+    width: 50%;
+    padding: 2%;
+    align-items: center;
+    border-radius: 10%;
+    margin-top: 2%;
+}
+
+.form-login {
+    width: 25%;
+    padding: 2%;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.form-poll {
+  width: 40%;
+  padding: 2%;
+  align-items: center;
+  border-radius: 10%;
+}
+
+.form-vote {
+  width: 40%;
+  padding: 2%;
+  align-items: center;
+  border-radius: 10%;
+}
+
+.boxx {
+  padding: 2%;
+  border-radius: 10%;
+  margin: 2%;
+  font-size: large;
+  display: block;
+}
+
+.btn-right {
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  font-size: large;
+  display: block;
+  padding: 5px;
+  width: 25%
+}
